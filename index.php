@@ -31,7 +31,7 @@
 <div class="container">
     <?php
 
-        $mysqli = new mysqli('localhost', 'root', 'admin@admin.com', 'crud') or die(mysqli_error($mysqli));
+        $mysqli = new mysqli('localhost', 'username', 'password', 'crud') or die(mysqli_error($mysqli));
 
         $result = $mysqli->query("SELECT * FROM data") or die($mysqli->error);
 
