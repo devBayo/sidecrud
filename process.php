@@ -8,7 +8,7 @@ $id = 0;
 $name = "";
 $email = "";
 
-$mysqli = new mysqli('localhost', 'root', 'admin@admin.com', 'crud') or die(mysqli_error($myqli));
+$mysqli = new mysqli('localhost', 'username', 'password', 'crud') or die(mysqli_error($myqli));
 
 if(isset($_POST['submit'])){
     $name = $_POST['name'];
